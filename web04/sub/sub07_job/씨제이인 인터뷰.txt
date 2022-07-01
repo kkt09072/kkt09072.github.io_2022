@@ -1,0 +1,78 @@
+이미지01: ( 안넣음)
+#CJ채용 #CJRECRUIT #CJ신입사원모집
+[JOB TV] CJ제일제당 Food Sales 직무소개영상  2018. 10. 2.
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/4LlOYlkyGYI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+이미지12
+[JOB TV] CJ ENM 오쇼핑부문 MD 직무소개영상
+2018. 10. 2.
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/e0pxHR--Xn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+이미지03
+#CJ채용 #CJRECRUIT #CJ신입사원모집
+[JOB TV] CJ제일제당 BIO 기술마케팅 (Animal Nutrition) 직무소개영상 2019. 3. 9
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/dWV5Ei34H6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+이미지06
+#CJ채용 #CJRECRUIT #CJ신입사원모집
+[JOB TV] CJ프레시웨이 마케팅 직무소개영상 2019. 9. 20.
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/EIVsaacceY0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+이미지07
+#CJ채용 #CJRECRUIT #CJ신입사원모집
+[JOB TV] CJ프레시웨이 MD 직무소개영상 2019. 9. 20.
+<iframe width="896" height="495" src="https://www.youtube.com/embed/Fr0wDweCDnA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+이미지08
+CJ오쇼핑 Live PD 여가희님
+2015. 9. 8.
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/SR0JK8tj_p8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+이미지09
+CJ ENM 오쇼핑부문 직무 브이로그! 영상아트 조명 담당 정다운님 편
+2020. 5. 25
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/5j_gAom0qQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+이미지10
+CJ ENM 오쇼핑부문 직무 브이로그! 영상아트 영상콘텐츠디자인 함다원님 편
+2020. 5. 25.
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/VIGaQzh0hkI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+이미지11
+CJ ENM 오쇼핑부문 직무 브이로그! IT개발자 김하빈님 편
+2020. 5. 25.
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/uG4Mxcx1lq0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+li.item3 .tb_fr { width: 100%; padding-top: 50px;}
+li.item3 .tb { display: table;   border-top: 2px solid #000; padding: 30px; border-collapse: collapse;}
+li.item3 .tb tr { display: table-row; }
+li.item3 .tb th, .tb td { display: table-cell; }
+li.item3 .tb th { font-size: 25px; border-bottom: 1px solid #aaa; padding: 30px 0px; }
+li.item3 .tb [class*=cel]{ height: 300px}
+li.item3 .tb .cel1 { width: 300px; }
+li.item3 .tb .cel1 .img_fr { width: 300px; height:90%; border-radius: 5px; overflow: hidden;}
+li.item3 .tb .cel2 { width: 800px; font-size: 23px; padding:20px; }
+
+li.item3 .tb .cel2 span.tit{ display:block; width: 200px; height: 60px; line-height: 60px; border-radius: 25px;  font-size: 20px; border:1px solid #ff9700; text-align: center; margin-left: 35px; font-weight: 600; background-color: rgba(255,151,0,0.9); color:#fff; }
+li.item3 .tb .cel2 span.tit:hover { color: rgb(255,151,0); background-color: #fff;}
+
+li.item3 .tb .cel2 h3.tit{ width:700px ; padding: 90px 30px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+li.item3 .tb .cel2 h3.tit:hover { text-decoration: underline;  }
+.tb .cel3 { width: 340px; font-size: 30px; color: #000; height:200px; line-height: 200px; padding-top: 60px}
+
+
+li.item3 .tb tbody.tb01 .tr01 .img_fr{ background-image: url("../sub/sub02_media/tb01/01_300.png");}
+li.item3 .tb tbody.tb01 .tr02 .img_fr{ background-image: url("../sub/sub02_media/tb01/02_300.png");}
+li.item3 .tb tbody.tb01 .tr03 .img_fr{ background-image: url("../sub/sub02_media/tb01/03_300.png");}
+li.item3 .tb tbody.tb01 .tr04 .img_fr{ background-image: url("../sub/sub02_media/tb01/04_300.png");}
+li.item3 .tb tbody.tb01 .tr05 .img_fr{ background-image: url("../sub/sub02_media/tb01/05_300.png");}
+li.item3 .tb tbody.tb01 .tr06 .img_fr{ background-image: url("../sub/sub02_media/tb01/06_300.png");}
+li.item3 .tb tbody.tb01 .tr07 .img_fr{ background-image: url("../sub/sub02_media/tb01/07_300.png");}
+li.item3 .tb tbody.tb01 .tr08 .img_fr{ background-image: url("../sub/sub02_media/tb01/08_300.png");}
+li.item3 .tb tbody.tb01 .tr09 .img_fr{ background-image: url("../sub/sub02_media/tb01/09_300.png");}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+*{ margin: 0; padding: 0;}
+body,html{ width: 100%; overflow-x: hidden;}
+ul{list-style: none; }
+a { text-decoration: 0; }
+button,input,img { outline: 0; user-select: none; background-color: transparent;}

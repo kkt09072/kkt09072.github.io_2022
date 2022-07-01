@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--상위 한줄 익스플로러 10이하버전 셋-->
+    <title>CJ그룹리뉴얼포트폴리오</title>
+    <meta name="title" content="CJ그룹 홈페이지">
+    <meta name="keywords" content="cj그룹, 비비고,씨제이원,씨지브이,제일제당">
+    <meta name="description" content="CJ그룹 홈페이지입니다.">
+    <meta http-equiv="refresh" content="180">
+    <link rel="shortcut icon" href="favicon(20x20).ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon(20x20).ico" type="image/x-icon">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/prefixfree.js"></script>
+    <script src="./js/device.js"></script>
+    <!--fontset 설정하기-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYHW3BJNLM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JYHW3BJNLM');
+    </script>
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]
+    <script src="js/respond.js"></script>
+    <![endif]-->
+    <style>
+    </style>
+    <script>
+        $(document).ready(function() {
+            $(".r_box .op_btn ").click(function() {
+                $("header").toggleClass("active");
+            });
+            $(window).scroll(function() {
+                var scTop = parseInt($(window).scrollTop());
+                if (scTop >= 200) {
+                    $("header").addClass("on");
+                } else {
+                    $("header").removeClass("on");
+                }
+            });
+
+            $(window).scroll(function() {
+                var home = 0;
+                var pg1 = $("#pg01").offset().top;
+                var pg2 = $("#pg02").offset().top;
+                var pt3 = $("#pg03").offset().top;
+                var pg4 = $("#pg04").offset().top;
+
+                var scTop = parseInt($(window).scrollTop());
+                var ht = $(window).height();
+                if (scTop >= ht) {
+                    $("body .top").fadeIn();
+                } else {
+                    $("body .top").fadeOut();
+                }
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="hd clrfx">
+            <a href="index.html" class="logo_top">cj.logo(흰색)</a>
+            <nav class="gnb clrfx">
+                <div class="gnb_wrap clrfx">
+                    <ul class="g_ul">
+                        <li class="m_lst">
+                            <a href="sub01.html" class="m_a">#LIVE NEW CJ</a>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub02.html" class="m_a">CJ Media</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub02.html#pg1">뉴스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg2">포커스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg3">사회공헌활동</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg4">피플</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub04.html" class="m_a">CJ Brand</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub04.html#pg1">Best Brand</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg2">건강</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg3">즐거움</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg4">편리</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst m_lst03">
+                            <a href="sub05.html" class="m_a">CSV</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub05.html#pg1">CJ CSV</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg2">CJ 나눔재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg3">CJ 문화재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg4">글로벌 사회공헌</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg5">임직원 봉사</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m_lst">
+                            <a href="sub06.html" class="m_a">CJ소개</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub06.html#pg1">회사소개</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg2">연혁</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg3">계열사</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg4">글로벌CJ</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg5">스포츠</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg6">윤리경영</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg7">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub07.html" class="m_a">인재채용</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub07.html#pg1">채용공고</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg2">직무정보</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg3">CJ 인터뷰</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg4">지원자 도우미</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg5">My Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="r_box clrfx">
+                    <ul class="r_lst clrfx">
+                        <li>
+                            <a href="index.html" class="ko active ">KOR</a>
+                            <a href="#" class="en">ENG</a>
+                        </li>
+                        <li>
+                            <a href="sub08.html" class="sin">고객센터</a>
+                        </li>
+                        <li class="op_btn">
+                            <button class="lst">
+                                <i class="i1">1</i>
+                                <i class="i2">2</i>
+                                <i class="i3">3</i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <mian class="con clrfx" id="content">
+            <figure class="vs clrfx">
+                <ul class="vs_box clrfx">
+                    <li class="item item01">
+                        <a href="" class="vs vs1">음식
+                        </a>
+                        <div class="txt_box txt01 clrfx">
+                            <h2>식품&amp;식품서비스</h2>
+                            <h1>한식 세계화의 선두에서 글로벌 식문화를 창조합니다.</h1>
+                            <p class="com">한식 세계화의 선두에서 글로벌 식문화를 창조합니다.맛있는 세상을 만드는 식품&amp;식품서비스 부문은CJ의 출발점입니다.</p>
+                        </div>
+                    </li>
+                    <li class="item item02">
+                        <a href="" class="vs vs2">
+                            엔터테이먼트
+                        </a>
+                        <div class="txt_box txt02">
+                            <h2>엔터테인먼트&amp;미디어</h2>
+                            <h1>아시아를 넘어 세계 곳곳으로 한류를 전파하며<br>
+                                즐거운 세상을 창조합니다.</h1>
+                            <p class="com">아시아를 넘어 전 세계에 새로운 한류를 전파합니다. 전 세계가 우리의 문화와 콘텐츠를 주목하고 있습니다<br>미디어 콘텐츠, 영화, 음악, 공연 등 다양한 콘텐츠로 새로운 가치를 부여 아시아를 넘어 세계 곳곳으로<br> 한류의 중심에서 즐거운 세상을 창조해가고 있습니다.</p>
+                        </div>
+                    </li>
+                    <li class="item item03">
+                        <a href="" class="vs vs3">생명공학
+                        </a>
+                        <div class="txt_box txt03">
+                            <h2>생명공학</h2>
+                            <h1>최고의 기술과 경쟁력으로 생명공학의 미래를 선도합니다.</h1>
+                            <p class="com">CJ제일제당 BIO 사업부문은 R&amp;D 기반의 아미노산 및 핵산 등 제품을 최고 수준의 품질로 안전하게 제공하여<br> 전 세계인이 더 건강하고 더 나은 삶을 영위하도록 돕고 있습니다.<br></p>
+                        </div>
+                        <a href="" class="go">계열사 전체보기</a>
+                    </li>
+
+                    <li class="item item04">
+                        <a href="" class="vs vs4">물류&amp;유통
+                        </a>
+                        <div class="txt_box txt04">
+                            <h2>물류&amp;신유통</h2>
+                            <h1>글로벌 유통과 물류 강자로 전 세계인의 생활을
+                                더욱 편리하게 합니다.</h1>
+                            <p class="com">최초의 TV 홈쇼핑을 통해 대한민국의 쇼핑과 국내 최초의 물류 사업으로 유통의 역사를 만들어 온 CJ의 신유통 부문이<br>세계인의 라이프스타일을 빠르게 변화시키며 편리한 세상을 열어가고 있습니다. </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="btn_box clrfx">
+                    <botton class="prev">이전</botton>
+                    <botton class="next">다음</botton>
+                </div>
+                <ul class="u_bar clrfx">
+                    <li class="bar1 on">
+                        <div class="bbtn">1</div>
+                    </li>
+                    <li class="bar2">
+                        <div class="bbtn">2</div>
+                    </li>
+                    <li class="bar3">
+                        <div class="bbtn">3</div>
+                    </li>
+                    <li class="bar4">
+                        <div class="bbtn">4</div>
+                    </li>
+                </ul>
+                <script>
+                    $(document).ready(function() {
+
+                        var intv = setInterval(function() {
+                            ani1();
+                        }, 2950);
+                        var n = $(".u_bar li").length;
+
+                        function ani1() {
+                            $(".vs_box").not(":animated").animate({
+                                "margin-left": "-1920px"
+                            }, 700, function() {
+                                $(".vs_box li").eq(0).appendTo($(".vs_box"));
+                                $(".vs_box").css("margin-left", "0px");
+
+                            });
+
+                            $(".u_bar li").eq(0).appendTo($(".u_bar"));
+                            $(".u_bar li").removeClass("on");
+                            $(".u_bar li").eq(0).addClass("on");
+
+
+                        }
+
+                        function ani2() {
+                            $(".vs_box li").eq(3).prependTo($(".vs_box"));
+                            $(".vs_box").css("margin-left", "-1920px");
+                            $(".vs_box").not(":animated").animate({
+                                "margin-left": "0px"
+                            }, 700);
+
+                            $(".u_bar li").eq(3).prependTo($(".u_bar"));
+                            $(".u_bar li").removeClass("on");
+                            $(".u_bar li").eq(0).addClass("on");
+                        }
+
+                        $(".btn_box .prev").click(function() {
+                            clearInterval(intv);
+                            ani2();
+                            intv = setInterval(function() {
+                                ani1();
+                            }, 2950);
+
+
+                        });
+
+                        $(".btn_box .next").click(function() {
+                            clearInterval(intv);
+                            ani1();
+                            intv = setInterval(function() {
+                                ani1();
+                            }, 2950);
+
+                        });
+                    });
+                </script>
+
+            </figure>
+            <!--after로 박스만들기-->
+            <div id="pg01" class="pg1 clrfx">
+                <section class="tit">
+                    <h2 class="tit_h clrfx"><span>CJ Best Brand</span></h2>
+                    <button class="spin">회전</button>
+                    <ul class="lst_box clrfx">
+                        <li class="item1 li1">
+                            <a href="" class="bg">
+                                비비고
+                            </a>
+                            <div class="txt">비비고</div>
+                        </li>
+                        <li class="item2 li1">
+                            <a href="" class="bg">
+                                tvn
+                            </a>
+                            <div class="txt">tvn</div>
+                        </li>
+                        <li class="item3 li1">
+                            <a href="" class="bg">
+                                Olive young
+                            </a>
+                            <div class="txt">Olive young</div>
+                        </li>
+                        <li class="item4 li2">
+                            <a href="" class="bg">
+                                뚜레쥬르
+                            </a>
+                            <div class="txt">뚜레쥬르</div>
+                        </li>
+                        <li class="item5 li2">
+                            <a href="" class="bg"> Mwave</a>
+                            <div class="txt">Mwave</div>
+                        </li>
+                        <li class="item6 li2">
+                            <a href="" class="bg">
+                                CJ mall
+                            </a>
+                            <div class="txt">CJ mall</div>
+                        </li>
+                        <li class="item7 li3">
+                            <a href="" class="bg">
+                                계절밥상
+                            </a>
+                            <div class="txt">계절밥상</div>
+                        </li>
+                        <li class="item8 li3">
+                            <a href="" class="bg">
+                                CGV
+                            </a>
+                            <div class="txt">CGV</div>
+                        </li>
+                        <li class="item9 li3">
+                            <a href="" class="bg">
+                                Cookit
+                            </a>
+                            <div class="txt">Cookit</div>
+                        </li>
+
+                        <li class="item10 li4">
+                            <a href="" class="bg">CJ ONE</a>
+                            <div class="txt">CJ ONE</div>
+                        </li>
+                        <li class="item11">
+                            큰 배경
+                        </li>
+                    </ul>
+                    <div class="ceo_box clrfx">
+                        <img src="./main/page1/bg_ceo_w_small2.png" alt="회사경영진">
+                        <div class="ceo_txt">
+                            <div class="l_box">
+                                <h2>사랑받는 글로벌 생활문화기업<br>World Best CJ를 향한<br>
+                                    도전은 계속됩니다.
+                                    <p>CJ그룹 이재현 회장</p>
+                                </h2>
+                            </div>
+                            <div class="r_box">
+                                <h2>기본과 원칙에 충시하며<br>World Best CJ를 향해 나아갑니다.
+                                    <p>CJ그룹대표이사 손경식회장</p>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="cl_btn">close</button>
+                    <script>
+                        $(document).ready(function() {
+                            $(".tit .spin").click(function() {
+                                $(this).toggleClass("on");
+                                $(".ceo_box").css("display", "blcok");
+
+                            });
+                            $(".cl_btn").click(function() {
+                                $(".tit .spin").removeClass("on");
+                            });
+                        });
+                    </script>
+                </section>
+
+            </div>
+            <div id="pg02" class="pg2 clrfx">
+                <section class="n_box">
+                    <h3>CJ NEWS</h3>
+                    <div class="card_box">
+                        <ul class="card_lst clrfx">
+                            <li class="clrfx">
+                                <a href="">
+                                    <img src="./main/page2/news_pic01.jpg" alt="뉴스1">
+                                    <div class="txt_box">
+                                        <span class="tit_r">CJ제일제당</span>
+                                        <p class="com">국내 기업 최초 국제표준 '컴플라이언스 경영시스템' 인증</p>
+                                        <p class="date">2021.01.21</p>
+                                    </div>
+                                    <div class="cover_box"></div>
+                                </a>
+                            </li>
+                            <li><a href="">
+                                    <img src="./main/page2/news_pic02.jpg" alt="뉴스2">
+                                    <div class="txt_box">
+                                        <span class="tit_o">CJENT</span>
+                                        <p class="com">CJ ENM 티빙, JTBC 제휴 통해 사업 본격화… 양사 시너지 극대화 기반 OTT시장 판도 변화 예고!</p>
+                                        <p class="date">2021.01.14</p>
+                                    </div>
+                                    <div class="cover_box"></div>
+                                </a></li>
+                            <li><a href="">
+                                    <img src="./main/page2/news_pic03.jpg" alt="뉴스3">
+                                    <div class="txt_box">
+                                        <span class="tit_b">CJ대한통운</span>
+                                        <p class="com">CJ대한통운, 인수지원인력 2259명 투입 … 택배기사 건강관리도 강화</p>
+                                        <p class="date">2020.12.30</p>
+                                    </div>
+                                    <div class="cover_box"></div>
+                                </a></li>
+                            <li><a href="">
+                                    <img src="./main/page2/news_pic04.jpg" alt="뉴스4">
+                                    <div class="txt_box">
+                                        <span class="tit_o">CJENT</span>
+                                        <p class="com">CJ&amp;CJ ENM ‘2020 MAMA’, 세계 200여개 지역 음악 팬과 하나된 열광 속 피날레!</p>
+                                        <p class="date">2020.12.07</p>
+                                    </div>
+                                    <div class="cover_box"></div>
+                                </a></li>
+                            <li><a href="">
+                                    <img src="./main/page2/news_pic05.jpg" alt="">
+                                    <div class="txt_box">
+                                        <span class="tit_b">CJ올리브영</span>
+                                        <p class="com">CJ올리브영, 동남아 최대 온라인 쇼핑 플랫폼 ‘쇼피(Shopee)’ 진출</p>
+                                        <p class="date">2021.01.14</p>
+                                    </div>
+                                    <div class="cover_box"></div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="btn_box01">
+                        <button class="prev01">이전</button>
+                        <button class="next01">다음</button>
+                    </div>
+                    <!--      </div>-->
+
+                    <script>
+                        $(document).ready(function() {
+                            var wd2 = 460 + 50;
+                            var cnt = 0;
+                            var kbs = 0;
+
+                            function next_item(x) {
+                                $(".card_lst").not(":animated").animate({
+                                    "margin-left": x + "px"
+                                }, 500);
+                                console.log(wd2);
+                            }
+                            $(".btn_box01 .next01").click(function() {
+                                if (cnt < 2) {
+                                    cnt = cnt + 1;
+                                    kbs = (cnt * wd2) * -1;
+                                    next_item(kbs);
+                                } else {
+                                    alert("더 이상 게시물이 없습니다.");
+                                }
+                            });
+                            $(".btn_box01 .prev01").click(function() {
+                                if (cnt > 0) {
+                                    cnt = cnt - 1;
+                                    kbs = (cnt * wd2) * -1;
+                                    next_item(kbs);
+                                } else {
+                                    alert("현재 게시물이 첫 번째입니다.");
+                                }
+                            });
+                        });
+                    </script>
+                </section>
+            </div>
+            <div id="pg03" class="pg3 clrfx">
+                <section class="clrfx">
+                    <h2 class="tit">CJ&nbsp;소개</h2>
+                    <p class="com">CJ는 ONLYONE 정신으로
+                        세계인의 문화를 만들어 갑니다</p>
+                    <ul class="c_box clrfx">
+                        <li class="i8">
+                            <a href="">
+                                <img src="./main/page3/pg3_pic01.jpg" alt="윤리경영">
+                                <span>윤리경영</span>
+                            </a>
+                        </li>
+                        <li class="i9">
+                            <a href="">
+                                <img src="./main/page3/pg3_pic02.jpg" alt="직무정보">
+                                <span>직무정보</span>
+                            </a>
+
+                        </li>
+                        <li class="i10">
+                            <a href="">
+                                <img src="./main/page3/pg3_pic03.jpg" alt="채용공고">
+                                <span>채용공고</span>
+                            </a>
+                        </li>
+                        <li class="i11">
+                            <a href="">
+                                <img src="./main/page3/pg3_pic04.jpg" alt="씨제이 인터뷰">
+                                <span>CJ인 인터뷰</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+            <div id="pg04" class="pg4 clrfx">
+                <section class="bg_b">
+                    <h2>애니메이션 페이지4</h2>
+                    <ul class="img_box">
+                        <li class="item1">
+                            <a href="">
+                                CJ Media
+                            </a>
+                        </li>
+                        <li class="item2">
+                            <a href="">
+                                고객센터
+                            </a>
+                        </li>
+                        <li class="item3">
+                            <a href="">
+                                온라인제보
+                            </a>
+                        </li>
+                    </ul>
+                    <script>
+                        $(document).ready(function() {
+                            var wd = parseInt($(".img_box").width());
+
+                            $(".img_box li").mouseenter(function() {
+                                $(this).width(wd * 0.44);
+                                $(this).siblings().width(wd * 0.28);
+                            });
+                            $(".img_box li").mouseleave(function() {
+                                $(".img_box li").width(wd * 0.333333);
+                            });
+                        });
+                    </script>
+                </section>
+
+            </div>
+        </mian>
+        <footer class="ft clrfx">
+            <div class="sel_box clrfx">
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck1" class="ck">
+                    <li class="lst1 food">
+                        <label for="ck1" class="tit">식품&amp;식품서비스</label>
+                        <ul class="sub">
+                            <li class="item1 jd">
+                                <a href="">CJ제일제당</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ푸드빌</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ프레시웨어</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck2" class="ck">
+                    <li class="lst1 life">
+                        <label for="ck2" class="tit">생명공학</label>
+                        <ul class="sub">
+                            <li class="item1 bio">
+                                <a href="">BIO사업부문</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ FEED&amp;Care </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck3" class="ck">
+                    <li class="lst1 traffic">
+                        <label for="ck3" class="tit">물류&amp;신유통</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ올리브영</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ올리브네트웍스</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJENM 커머스</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck4" class="ck">
+                    <li class="lst1 enter">
+                        <label for="ck4" class="tit">엔터테인먼트&amp;미디어</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ ENM</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ CGV</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJ파워캐스트</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script>
+                </script>
+            </div>
+            <div class="fnb_box clrfx">
+                <div class="fnb_wrap clrfx">
+                    <ul class="ft_nav ft_nav01 clrfx">
+                        <li><a href="sub01.html">#LIVE NEW CJ</a></li>
+                        <li><a href="sub02.html">CJ Media</a></li>
+                        <li><a href="sub04.html">CJ Brand</a></li>
+                        <li><a href="sub05.html">CSV</a></li>
+                        <li><a href="sub06.html">CJ소개</a></li>
+                        <li><a href="sub07.html">인재채용</a></li>
+                    </ul>
+                    <ul class="ft_nav ft_nav02 clrfx">
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">뉴스레터</a></li>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">온라인제보</a></li>
+                        <li><a href="sub08.html">고객센터</a></li>
+                    </ul>
+                    <p class="copy">서울특별시 중구 소월로 2길 12, CJ THE CENTER | 대표이사:손경식,김홍기<br>사업자등록번호 : 104-81-26714<br>ⓒ씨제이㈜.All Rights REseved.</p>
+                    <img src="./main/logo/ft_wa_mark_big.png" alt="와인증마크1" class="wa">
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="top">
+            <img src="./main/icon/img_scroll_arrow.png" alt="위로화살표">
+            <span class="txt">top</span>
+        </a>
+        <script>
+        $(document).ready(function(){
+           $(".top").click(function(){
+              $("body,html").not(":animated").animate({"scrollTop":"0px"},500); 
+           });
+        });
+        </script>
+        <!--ul 앞: top  뒤: end -->
+        <!-- <div class="mt_bar">
+            <ul class="bar_fr">
+                <li><button data_target="header" class="btn">top</button></li>
+                <li><button data_target="pg1">1</button></li>
+                <li><button data_target="pg2">2</button></li>
+                <li><button data_target="pg3">3</button></li>
+                <li><button data_target="pg4">4</button></li>
+                <li><button data_target="footer">end</button></li>
+            </ul>
+            <div class="cur_page">현재위치표시</div>
+        </div> -->
+
+    </div>
+
+</body>
+
+</html>

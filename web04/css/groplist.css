@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.con { width: 100vw; height: 100vh; clear:both; }
+
+.ba_box { width: 100%; margin-top: 130px; overflow: hidden; position:relative; clear:both; }
+.ba_box img { display: block; width: 100%; height:400px;  }
+.ba_box p { position:absolute; color:#fff; font-size: 60px; top: 50%; left:50%; margin-left: -120px; margin-top: -40px; }
+
+/*조직도*/
+.group_map { width: 1620px; margin: 0 auto; }
+.info_box  { width:1100px; height: 450px; padding-top: 70px;margin-left: 100px; margin: 0 auto; }
+.info_box li.info_lst { width: 1100px; height: 304px; box-shadow: 10px 10px 8px 5px #eee; border: 1px solid #eee; padding: 30px 0;}
+.info_lst .info_tnb{ display: block; width: 1100px; height: 400px;  }
+.info_lst .info_tnb .b_bg {width: 300px; height: 300px; border-radius: 250px; background-color: #006ecd; float:left; margin-left: 50px; }
+
+.info_lst .info_tnb img { display: block; width: 300px; height: 300px;  border-radius: 230px;  box-sizing: border-box; float: left; }
+
+.info_tit{ width: 750px; height: 300px; float:left; text-align: left; }
+.info_txt { margin-top: 100px ; margin-left: 50px; color:darkgray; line-height: 1.6; }
+
+/*조직도 내용*/
+.info_box01 { width: 1200px; margin: 0 auto; }
+.info_box01 .line { width: 1200px; position:relative; }
+.info_box01 .line:before {content: ""; display: block; width: 902px; height:2px; background-color: #ccc;  position:absolute; top: 0; left:150px;}
+.info_box01 .info { width: 300px; height:80px;  float:left; padding-top: 30px;  position:relative; }
+
+.info_box01 .info_lst01 { width: 250px; height: 74px; border: 2px solid transparent; box-sizing: border-box; padding: 0 35px; }
+.info_box01 .info_lst01 > span { display: block; width: 230px; height: 58px ; border:2px solid  transparent; text-align: center; line-height: 58px; font-size:20px; box-sizing: border-box; margin: 6px auto; color: #ececec; box-shadow: 4px 4px 4px -3px  #000; font-weight: 600; }
+.info_box01 .info_lst01:before { content:""; display: block; width: 2px; height:25px; background-color: #ccc; position:absolute; top: 2px; left: 50%;}
+
+/*info_lst 선부분*/
+.info_box01 .info_lst01:before{ content:""; }
+/*스팬 컬러*/
+.info_box01 .info01 .info_lst01 span{ background-color: #ee151e;}
+.info_box01 .info02 .info_lst01 span{ background-color: #ee151e;}
+.info_box01 .info03 .info_lst01 span{ background-color: #006ecd;}
+.info_box01 .info04 .info_lst01 span{ background-color: #ff9700;}
+
+/* 계열사 리스트*/
+.info_box01 .info .main {width: 250px; padding-top: 40px;}
+
+.main .main_lst { width: 250px; margin: 30px auto; margin-left: -9px}
+
+.main .main_lst > a { display:block; width: 230px; height:60px; border: 1px solid transparent; color:#eee; font-size:17px; text-align: center; line-height: 60px; margin: 0 10px; box-sizing: border-box; box-shadow: 4px 4px 4px -3px  #000; font-weight: 600;}
+
+.main .main_lst .mlst01 { background-color: rgba(238,21,30,0.8);}
+.main .main_lst .mlst02 { background-color: rgba(0,110,205,0.8);}
+.main .main_lst .mlst03 { background-color: rgba(255,151,0,0.8);}
+
+.main .main_lst .sub { width: 230px; padding-top: 10px; }
+
+.main .main_lst .sub li { width: 200px; height:29px; line-height: 29px; text-align: left; margin-left: 50px; padding: 10px 0; border-left-style: solid; border-color: #eee; position:relative;}
+.main .main_lst .sub li:first-child {margin-top: 3px;} 
+.main .main_lst .sub li a { display: block; width: 180px; height:20px; margin-left: 30px; color:#000;}
+
+.main .main_lst .sub li a:before { content:""; width:20px; height:2px; background-color: #ccc; position:absolute; top:50%; left: 0;}
+
+
+

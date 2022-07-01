@@ -1,0 +1,18 @@
+Cj 경영철학
+
+미션 |, 비전 | 핵심가치 |
+
+
+
+ <h4 class="t01">ONLYONE제품과 서비스로 최고의 가치를 창출</h4>
+                                <h5 class="t02">사업보국의 방법</h5>
+                                <ul class="t_com">
+                                    <li class="td">고객 삶의 질의 향상</li>
+                                    <li class="td">직원 일자리 확대, 프라이드 제공</li>
+                                    <li class="td">업계 생태계 확대로 기회 증진</li>
+                                </ul>
+                                <h5 class="t03">국가사회에기여</h5>
+                                <ul class="t_com">
+                                    <li>그룹CEO 사명감(CJ 존재 이유)</li>
+                                    <li class="td">직원 일자리 확대, 프라이드 제공</li>
+                                </ul>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CJ 회사소개</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/device.js"></script>
+    <!--fontset 설정하기-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_common.css">
+    <link rel="stylesheet" href="./css/sub06.css">
+</head>
+<script>
+  $(document).ready(function() {
+            $(window).scroll(function(){
+                var home = 0;
+                var pg1 = $("#pg1").offset().top;
+                var pg2 = $("#pg2").offset().top;
+                var pg3 = $("#pg3").offset().top;
+                               
+                var scTop = parseInt($(window).scrollTop()); 
+                var ht =$(window).height();
+                if(scTop>=ht){
+                    $("body .top").fadeIn();
+                } else{
+                    $("body .top").fadeOut();
+                }
+            });  
+        });    
+</script>
+<body>
+    <div class="wrap">
+        <header class="hd clrfx">
+            <a href="index.html" class="logo_top">cj.logo(검)</a>
+            <nav class="gnb clrfx">
+                <div class="gnb_wrap clrfx">
+                    <ul class="g_ul">
+                        <li class="m_lst">
+                            <a href="sub01.html" class="m_a">#LIVE NEW CJ</a>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub02.html" class="m_a">CJ Media</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub02.html#pg1">뉴스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg2">포커스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg3">사회공헌활동</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg4">피플</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub04.html" class="m_a">CJ Brand</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub04.html#pg1">Best Brand</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg2">건강</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg3">즐거움</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg4">편리</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst m_lst03">
+                            <a href="sub05.html" class="m_a">CSV</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub05.html#pg1">CJ CSV</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg2">CJ 나눔재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg3">CJ 문화재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg4">글로벌 사회공헌</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg5">임직원 봉사</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m_lst">
+                            <a href="sub06.html" class="m_a">CJ소개</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub06.html#pg1">회사소개</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg2">연혁</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg3">계열사</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg4">글로벌CJ</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg5">스포츠</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg6">윤리경영</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg7">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub07.html" class="m_a">인재채용</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub07.html#pg1">채용공고</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg2">직무정보</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg3">CJ 인터뷰</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg4">지원자 도우미</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg5">My Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+        <div class="con clrfx">
+            <section class="full_bn">
+                <h2>CJ 회사소개</h2>
+            </section>
+            <div class="in_wrap clrfx " id="pg1">
+                <h3>CJ 기업 정신</h3>
+                <div class="th_box">
+                    <ul class="cj_th01 th">
+                        <li class="item01">
+                            <div class="txt_w">
+                                <h2 class="tit">문화 창조는 CJ가 잘하는 일</h2>
+                                <p class="com">CJ는 우리의 아름다운 문화를 전 세계인들에게 알리기 위해 가장 앞서 달리고 있습니다. 세계의 라이프스타일을 주도하는 한류의 중심에 CJ가 있습니다. </p>
+                            </div>
+                        </li>
+                        <li class="item02">CULTURE</li>
+                    </ul>
+                    <ul class="cj_th02 th">
+                        <li class="item01">
+                            <div class="txt_w">
+                                <h2 class="tit">CJ의 꿈은 최고의 생활문화기업</h2>
+                                <p class="com">전 세계인이 일상생활 속에서 한국의 영화, 음식, 드라마, 음악을 마음껏 즐기며
+                                    일상의 행복을 누리게 되는 것. 그리고 이를 가장 앞서서 이끄는 것이 바로 CJ의 꿈입니다
+                                    .</p>
+                            </div>
+                        </li>
+                        <li class="item02">GLOBAL</li>
+                    </ul>
+                    <ul class="cj_th03 th">
+                        <li class="item01">
+                            <div class="txt_w">
+                                <h2 class="tit">CJ의 가치는 ONLYONE 정신
+                                </h2>
+                                <p class="com">모든 면에서 최초, 최고, 차별화를 추구함으로써, CJ는 남들이 하지 않은 새로운 제품과 서비스, 시스템, 사업을
+                                    지속적으로 창출해 가고 있습니다.</p>
+                            </div>
+                        </li>
+                        <li class="item02">ONLYONE</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gy clrfx" id="pg2">
+                <h3 class="gy_tit">경영철학</h3>
+                <div class="center clrfx">
+                    <ul class="gy_lst left">
+                        <li class="item1">
+                            <input type="radio" name="ckb" class="ckb" id="ckb1" checked>
+                            <label for="ckb1">미션</label>
+                            <div class="txb txt_box01">
+                                <h3>ONLYONE제품과 서비스로 최고의 가치를 창출</h3>
+                                <section class="l01">
+                                    <h5>사업보국의 방법</h5>
+                                    <ul class="dian">
+                                        <li>고객 삶의 질의 향상</li>
+                                        <li>직원 일자리 확대, 프라이드 제공</li>
+                                        <li>업계 생태계 확대로 기화 증진</li>
+                                    </ul>
+                                </section>
+                                <section class="l01">
+                                    <h5>국가사회에 기여</h5>
+                                    <ul class="dian">
+                                        <li>그룹 CEO의 사명감(CJ의 존재이유)</li>
+                                        <li>사업보국</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="item2">
+                            <input type="radio" name="ckb" class="ckb" id="ckb2">
+                            <label for="ckb2"> 비전</label>
+                            <div class="txb txt_box02">
+                                <h3>건강,즐거움,편리를 창조하는 글로벌 생활문화기업</h3>
+                                <section class="l01">
+                                    <h5>건강,즐거움,편리</h5>
+                                    <ul class="dian">
+                                        <li>사업영역</li>
+                                        <li>Life style 산업(미래 먹거리)</li>
+                                    </ul>
+                                </section>
+                                <section class="l01">
+                                    <h5>창조</h5>
+                                    <ul class="dian">
+                                        <li>사업방식</li>
+                                        <li>새로운 산업을 만들거아 3류 산업의 일류 산업화로 생태계 조성확대</li>
+                                    </ul>
+                                </section>
+                                <section class="l01">
+                                    <h5>글로벌 생활문화기업</h5>
+                                    <ul class="dian">
+                                        <li>중장기목표</li>
+                                        <li>2020 Great CJ</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="item3">
+                            <input type="radio" name="ckb" class="ckb" id="ckb3">
+                            <label for="ckb3">핵심가치</label>
+                            <div class="txb txt_box03">
+                                <h3>CJ의 지속적 추구 가치, CJ만의 기업문화 형성요소</h3>
+                                <section class="l01">
+                                    <h5>인재</h5>
+                                    <ul class="dian">
+                                        <li>일류인재,강유문화</li>
+                                        <li>일류인재 양성과 강유문화 조성으로 앞서가는 일류기업이 된다.</li>
+                                    </ul>
+                                </section>
+                                <section class="l01">
+                                    <h5>ONLY&nbsp;ONE</h5>
+                                    <ul class="dian">
+                                        <li>최초,최고,차별화</li>
+                                        <li>최초,최고,차별화를 추구하여 핵심역량을 갖춘 일등기업이 된다.</li>
+                                    </ul>
+                                </section>
+                                <section class="l01">
+                                    <h5>상생</h5>
+                                    <ul class="dian">
+                                        <li>생태계조성,공유가치</li>
+                                        <li>생태계 조성과 공유가치 창출로 국가사회로부터 존경받는 기업이 된다.</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <section class="right">
+                        <div class="right_box clrfx">
+                            <h3 class="tit">사업영역</h3>
+                            <h1>생활 곳곳에 퍼져가는 문화를 만듭니다.</h1>
+                            <a href="" class="par_go">계열사 전체보기</a>
+                            <ul class="part">
+                                <li class="par_lst1">
+                                    <a href="">식품&amp;식품서비스</a>
+                                    <div class="par par_bg01">
+                                    </div>
+                                </li>
+                                <li class="par_lst2">
+                                    <a href="">생명공학</a>
+                                    <div class="par par_bg02">
+                                    </div>
+                                </li>
+                                <li class="par_lst3">
+                                    <a href="">물류&amp;신유통</a>
+                                    <div class="par par_bg03">
+                                    </div>
+                                </li>
+                                <li class="par_lst4">
+                                    <a href="">엔터테인먼트&amp;미디어</a>
+                                    <div class="par par_bg04">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="ceo clrfx" id="pg3">
+
+                <img src="./sub/sub06_cor/bg_ceo_w_small.png" alt="경영진">
+                <div class="txt_box clrfx ">
+                    <input type="checkbox" name="cb" class="cb" id="cb1">
+                    <div class="l_box">
+                        <h2 class="txt">
+                            사랑받는 글로벌 생활문화 기업<br>World Best CJ를 향한<br> 도전은 계속됩니다.
+                        </h2>
+                        <label for="cb1" class="l_btn">CJ그룹 이재현 회장</label>
+                    </div>
+                    <section id="l_pop" class="pop">
+                        <div class="wrap clrfx">
+                            <label for="cb1" class="cl_btn">나가기</label>
+                            <div class="img_box">
+                                <h2>2020년까지
+                                    세계 1위 브랜드를<br> 거느린 Global Great Company<br>
+                                    CJ로 도약하겠습니다</h2>
+                                <p class="na">CJ그룹
+                                    이재현 회장</p>
+                            </div>
+                            <p class="com">삼성 그룹의 모태 기업으로 자리했던 CJ는 창립기와 도약기를 거쳐 종합식품회사로 성장하고 이를 발판으로 첨단 기술 개발과 해외 진출을 시작했습니다.
+                                이후 1990년대 중반, 삼성그룹으로부터의 독립 이후 독자적인 사업 다각화를 통해 식품 & 식품 서비스, 생명공학, 엔터테인먼트와 미디어, 신유통의 4대 핵심 사업군을 구축했고 현재 4대 핵심 사업군에서의 Leading Company로 성장하였습니다.<br><br>
+
+                                이러한 성장의 가장 큰 동력은 사람, 즉 CJ의 인재들입니다. CJ는 독립 경영 이후 10년 동안 사업의 성장뿐만 아니라 유연하고 창의적인 기업 문화 조성을 강하게 추진해 왔습니다. 유연하되 원칙을 지키고, 그 바탕 위에서 경쟁과 도전을 지향하는 우리의 강한 기업 문화가 ‘글로벌 CJ’의 내일을 앞당길 것으로 믿고 있습니다.<br><br>
+
+                                고객들의 변함없는 신뢰와 사랑에 보답하는 길은 더 좋은 제품과 서비스를 제공하는 것과 더불어 기업의 사회적 책임을 성실히 이행하는 책임경영의 실천에 있습니다. CJ는 도너스캠프를 통한 교육 나눔, 문화재단을 통한 순수 문화예술 분야 지원 등 다양한 사회공헌 활동을 전개하고 있으며 앞으로도 지역 사회와 더 많이 나누고 함께 성장하는 기업이 될 것입니다.<br><br>
+
+                                CJ는 ‘글로벌 CJ’를 향해 힘차게 도약하고 있습니다. 각 사업군이 가진 국내 1등의 핵심 역량을 기반으로 해외 진출을 적극적으로 전개해 모든 사업군에서 글로벌화가 활발하게 이뤄질 것입니다. 더불어 2020년에는 명실상부한 ‘Great Global Company’로 도약할 것입니다.<br><br>
+
+                                건강, 즐거움, 편리를 창조하는 제일 좋은 생활문화기업, 전세계 고객을 즐겁게 할 Great Global CJ가 되겠다는 비전을 실현하기 위해 끊임없이 혁신하고 도전하는 CJ를 기대해주십시오.</p>
+                        </div>
+                    </section>
+                    <input type="checkbox" name="cb" class="cb" id="cb2">
+                    <div class="r_box">
+                        <h2 class="txt clrfx">
+                            기본과 원칙에 충실하며<br> World Best CJ를 향해<br> 나아갑니다.
+                        </h2>
+                        <label for="cb2" class="r_btn">CJ그룹 대표이사 손경식 회장</label>
+                    </div>
+                    <section id="r_pop" class="pop">
+                        <div class="wrap clrfx">
+                            <label for="cb2" class="cl_btn">나가기</label>
+                            <div class="img_box">
+                                <h2>
+                                    글로벌 CJ를 향한
+                                    제2도약을 시작합니다
+                                </h2>
+                                <p class="na">CJ그룹 대표이사
+                                    손경식 회장</p>
+                            </div>
+                            <p class="com">제일제당은 다시다, 해찬들, 백설 등 대표적 식품 브랜드들이 꾸준한 고객의 사랑을 받고 있으며, 인델리와 같은 신규 브랜드를 성공적으로 출범시켰습니다. 그리고 제약 사업도 그 기반을 더욱 다져 나가고 있으며, BIO사업부문에서는 그간의 지속적인 노력이 결실을 거두어 해외시장에서 세계적인 경쟁사들과 기술 역량면에서도 당당히 1위 자리를 놓고 겨루게 되었습니다.
+                                <br><br>
+                                CJ대한통운은 국내 택배사업의 성공을 발판으로 베트남과 중국에서 세계적인 글로벌 기업을 고객으로 확보하며 본격적인 글로벌 시장에 진출했으며, CJ ENM 커머스부문은 홈쇼핑 사업에서 온라인 전문 쇼핑 회사로서의 위상을 재 정립하고, 중국에 이어 지속적인 글로벌 확대에 박차를 가하고 있습니다.<br><br>
+
+                                최고의 영화 제작과 배급 역량을 가지고 한국 대중 문화를 이끄는 CJ엔터테인먼트를 비롯, 케이블방송 산업의 역사를 다시 쓰게 만든 CJ ENM E&amp;M부문의 대형 히트작들의 성공은 글로벌 미디어 기업으로 성장할 수 있는 매우 중요한 발판을 마련했습니다.<br><br>
+
+                                CJ를 사랑해주시는 고객 여러분, CJ는 기본과 원칙에 충실하며 ‘Global Great CJ’라는 비전을 달성하기 위해 혼신의 노력을 기울여 왔으며, 그 결과 상당한 성과를 이루었습니다. 이에 더 나아가 고객, 주주, 사회에 건강, 즐거움, 편리를 선사하는 글로벌 종합 생활 문화 기업으로 나아가겠습니다.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer class="ft clrfx">
+            <div class="sel_box clrfx">
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck1" class="ck">
+                    <li class="lst1 food">
+                        <label for="ck1" class="tit">식품&amp;식품서비스</label>
+                        <ul class="sub">
+                            <li class="item1 jd">
+                                <a href="">CJ제일제당</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ푸드빌</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ프레시웨어</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck2" class="ck">
+                    <li class="lst1 life">
+                        <label for="ck2" class="tit">생명공학</label>
+                        <ul class="sub">
+                            <li class="item1 bio">
+                                <a href="">BIO사업부문</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ FEED&amp;Care </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck3" class="ck">
+                    <li class="lst1 traffic">
+                        <label for="ck3" class="tit">물류&amp;신유통</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ올리브영</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ올리브네트웍스</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJENM 커머스</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck4" class="ck">
+                    <li class="lst1 enter">
+                        <label for="ck4" class="tit">엔터테인먼트&amp;미디어</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ ENM</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ CGV</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJ파워캐스트</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script>
+                </script>
+            </div>
+            <div class="fnb_box clrfx">
+                <div class="fnb_wrap clrfx">
+                    <ul class="ft_nav ft_nav01 clrfx">
+                        <li><a href="sub01.html">#LIVE NEW CJ</a></li>
+                        <li><a href="sub02.html">CJ Media</a></li>
+                        <li><a href="sub04.html">CJ Brand</a></li>
+                        <li><a href="sub05.html">CSV</a></li>
+                        <li><a href="sub06.html">CJ소개</a></li>
+                        <li><a href="sub07.html">인재채용</a></li>
+                    </ul>
+                    <ul class="ft_nav ft_nav02 clrfx">
+                        <li><a href="sub10.html">개인정보처리방침</a></li>
+                        <li><a href="sub11.html">이용약관</a></li>
+                        <li><a href="sub12.html">뉴스레터</a></li>
+                        <li><a href="sub13.html">공지사항</a></li>
+                        <li><a href="sub14.html">온라인제보</a></li>
+                        <li><a href="sub15.html">고객센터</a></li>
+                    </ul>
+                    <p class="copy">서울특별시 중구 소월로 2길 12, CJ THE CENTER | 대표이사:손경식,김홍기<br>사업자등록번호 : 104-81-26714<br>ⓒ씨제이㈜.All Rights REseved.</p>
+                    <img src="./main/logo/ft_wa_mark_big.png" alt="와인증마크1" class="wa">
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="top">
+            <img src="./main/icon/img_scroll_arrow.png" alt="위로화살표">
+            <span class="txt">top</span>
+        </a>
+        <!--ul 앞: top  뒤: end -->
+        <div class="mt_bar">
+            <ul class="bar_fr">
+                <li><button data_target="header" class="btn">top</button></li>
+                <li><button data_target="pg1">1</button></li>
+                <li><button data_target="pg2">2</button></li>
+                <li><button data_target="pg3">3</button></li>
+                <li><button data_target="pg4">4</button></li>
+                <li><button data_target="footer">end</button></li>
+            </ul>
+            <div class="cur_page">현재위치표시</div>
+        </div>
+        <!--다시하기  작성하기-->
+        <script>
+            $(document).ready(function() {
+                var scTop = parseInt($(window).scrollTop());
+                var ht = $(window).height();
+                if (scTop >= ht) {
+                    $("body .top").fadeIn();
+                } else {
+                    $("body .top").fadeOut();
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>

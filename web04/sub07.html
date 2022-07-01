@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CJ best brand</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/device.js"></script>
+    <!--fontset 설정하기-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/sub_common.css">
+    <link rel="stylesheet" href="./css/sub07.css">
+    <script>
+        $(document).ready(function() {
+            var home = 0;
+            var pg1 = $("#pg1").offset().top;
+            var pg2 = $("#pg2").offset().top;
+            var pt3 = $("#pg3").offset().top;
+            var pg4 = $("#pg4").offset().top;
+
+            function top() {
+                $(window).scroll(function() {
+                    var scTop = parseInt($(window).scrollTop());
+                    var ht = $(window).height();
+                    if (scTop >= ht) {
+                        $(".top").fadeIn();
+                    } else {
+                        $(".top").fadeOut();
+                    }
+                });
+            }
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="hd clrfx">
+            <a href="index.html" class="logo_top">cj.logo(검)</a>
+            <nav class="gnb clrfx">
+                <div class="gnb_wrap clrfx">
+                    <ul class="g_ul">
+                        <li class="m_lst">
+                            <a href="sub01.html" class="m_a">#LIVE NEW CJ</a>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub02.html" class="m_a">CJ Media</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub02.html#pg1">뉴스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg2">포커스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg3">사회공헌활동</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg4">피플</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub04.html" class="m_a">CJ Brand</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub04.html">Best Brand</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg1">건강</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg2">즐거움</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg3">편리</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst m_lst03">
+                            <a href="sub05.html" class="m_a">CSV</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub05.html#pg1">CJ CSV</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg2">CJ 나눔재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg3">CJ 문화재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg4">글로벌 사회공헌</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg5">임직원 봉사</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m_lst">
+                            <a href="sub06.html" class="m_a">CJ소개</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub06.html#pg1">회사소개</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg2">연혁</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg3">계열사</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg4">글로벌CJ</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg5">스포츠</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg6">윤리경영</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg7">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub07.html" class="m_a">인재채용</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub07.html#pg1">채용공고</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg2">직무정보</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg3">CJ 인터뷰</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg4">지원자 도우미</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg5">My Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="con clrfx">
+            <ul class="tab clrfx">
+                <li class="item01 clrfx">
+                    <input type="radio" name="ro" class="radio" id="tb01" checked>
+                    <label for="tb01" class="r_tb">채용공고</label>
+                    <div class="tab_con01 tab_con ">
+                        <table class="tb tab_lst">
+                            <thead>
+                                <tr>
+                                    <th class="cel1">공고명</th>
+                                    <th class="cel2">대상</th>
+                                    <th class="cel3">접수기한</th>
+                                    <th class="cel4">비고</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="tr1">
+                                    <td class="cel1">
+                                        <span class="tit">CJ그룹</span>
+                                        <span class="com">[CJ도너스캠프]꿈키움 아카데미 21년 상반기 푸드서비스 부문 교육생모집</span>
+                                    </td>
+                                    <td class="cel2">기타</td>
+                                    <td class="cel3">2021.02.09 ~ 03.21</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="cel1">
+                                        <span class="tit">CJ대한통운</span>
+                                        <span class="com">CJ대한 통운 리조트본부 인사/총무 경력직 모집</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.05 ~ 03.15</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr3">
+                                    <td class="cel1">
+                                        <span class="tit">CJ올리브영</span>
+                                        <span class="com">IT(디지털)직군 전문 채용 담당 경력직 모집</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.05 ~ 03.16</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr4">
+                                    <td class="cel1">
+                                        <span class="tit">CJ프레시웨이</span>
+                                        <span class="com">CJ프레시웨이 인사기획 직무 경력사원 모집</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.05 ~ 03.15</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr5">
+                                    <td class="cel1">
+                                        <span class="tit">CJ푸드빌</span>
+                                        <span class="com">CJ음식공장 품질관리/분석 사원 모집</span>
+                                    </td>
+                                    <td class="cel2">신입/경력</td>
+                                    <td class="cel3">2021.03.04 ~ 03.14</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr6">
+                                    <td class="cel1">
+                                        <span class="tit">CJENM</span>
+                                        <span class="com">CJ커머스부문 모바일사업 경력채용</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.02 ~ 03.11</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr7">
+                                    <td class="cel1">
+                                        <span class="tit">TVING</span>
+                                        <span class="com">TVING OTT 전문가 경력 채용</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.02 ~ 03.14</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                                <tr class="tr8">
+                                    <td class="cel1">
+                                        <span class="tit">CJ LiveCity</span>
+                                        <span class="com">CJ LIVECITY 재무팀 경력사원 모집</span>
+                                    </td>
+                                    <td class="cel2">경력</td>
+                                    <td class="cel3">2021.03.05 ~ 03.11</td>
+                                    <td class="cel4"><a href="">지원하기</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <li class="item02">
+                    <input type="radio" name="ro" class="radio" id="tb02">
+                    <label for="tb02" class="r_tb">직무정보</label>
+                    <div class="tab_con02 tab_con">
+                        <ul class="sl_wrap clrfx">
+                            <li class="lst">
+                                <input type="radio" name="ri" class="ri" id="rid1" checked>
+                                <label for="rid1" class="sl1">CJ 제일제당</label>
+                                <ul class="sub sub01">
+                                    <li class="sub_lst">
+                                        <span class="tit">경영지원</span>
+                                        <ul class="part part01">
+                                            <li><a href="">기획관리</a></li>
+                                            <li><a href="">인사</a></li>
+                                            <li><a href="">법무</a></li>
+                                            <li><a href="">구매</a></li>
+                                            <li><a href="">SCM</a></li>
+                                            <li><a href="">재경</a></li>
+                                            <li><a href="">산업안전</a></li>
+                                            <li><a href="">IP(Intellectual Property)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit tit02">IT</span>
+                                        <ul class="part part02">
+                                            <li><a href="">정보전략</a></li>
+                                            <li><a href="">Information Security</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit tit03">연구개발</span>
+                                        <ul class="part part03">
+                                            <li><a href="">R&amp;D(BIO) 화학</a></li>
+                                            <li><a href="">R&amp;D(BIO) 분석</a></li>
+                                            <li><a href="">R&amp;D(식품) 조미소재</a></li>
+                                            <li><a href="">R&amp;D(BIO) 발효공정</a></li>
+                                            <li><a href="">R&amp;D(BIO) 균주개발</a></li>
+                                            <li><a href="">R&amp;D(BIO) 정제공정</a></li>
+                                            <li><a href="">R&amp;D(BIO) 효소</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit tit04">영업 &amp; 마케팅</span>
+                                        <ul class="part part04">
+                                            <li><a href="">Food Sales</a></li>
+                                            <li><a href="">Online Sales</a></li>
+                                            <li><a href="">기술마케팅(Animal Nutrition)</a></li>
+                                            <li><a href="">기술마케팅(Human Nutrition)</a></li>
+                                            <li><a href="">식품마케팅(Product Marketing)</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">제조</span>
+                                        <ul class="part">
+                                            <li><a href="">BIO 생산기술</a></li>
+                                            <li><a href="">BIO 품질관리</a></li>
+                                            <li><a href="">BIO 공무 Engineer</a></li>
+                                            <li><a href="">BIO 환경안전</a></li>
+                                            <li><a href="">Process Engr.</a></li>
+                                            <li><a href="">Electrical Engr.</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lst">
+                                <input type="radio" name="ri" class="ri" id="rid2">
+                                <label for="rid2" class="sl2">CJ 푸드빌</label>
+                                <ul class="sub sub02">
+                                    <li class="sub_lst">
+                                        <span class="tit">경영지원</span>
+                                        <ul class="part">
+                                            <li><a href="">기획관리</a></li>
+                                            <li><a href="">인사</a></li>
+                                            <li><a href="">교육</a></li>
+                                            <li><a href="">법무</a></li>
+                                            <li><a href="">홍보</a></li>
+                                            <li><a href="">구매</a></li>
+                                            <li><a href="">SCM</a></li>
+                                            <li><a href="">물류기획</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">건설/개발</span>
+                                        <ul class="part part part02">
+                                            <li><a href="">기획관리</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">IT</span>
+                                        <ul class="part part part02">
+                                            <li><a href="">빅데이터분석</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">연구개발</span>
+                                        <ul class="part part02">
+                                            <li><a href="">베이커리R&amp;D</a></li>
+                                            <li><a href="">상품기획</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">제조</span>
+                                        <ul class="part part part02">
+                                            <li><a href="">품질관리</a></li>
+                                            <li><a href="">공무</a></li>
+                                            <li><a href="">생산기술</a></li>
+                                            <li><a href="">생산관리</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="lst">
+                                <input type="radio" name="ri" class="ri" id="rid3">
+                                <label for="rid3" class="sl3">CJ ENM</label>
+                                <ul class="sub sub03">
+                                    <li class="sub_lst">
+                                        <span class="tit">콘텐츠</span>
+                                        <ul class="part">
+                                            <li><a href="">영화투자</a></li>
+                                            <li><a href="">에니메이션사업</a></li>
+                                            <li><a href="">제작PD</a></li>
+                                            <li><a href="">드라마 프로듀서</a></li>
+                                            <li><a href="">디지털콘텐츠사업(DIA)</a></li>
+                                            <li><a href="">방송미술디자인</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">기술/엔지니어링</span>
+                                        <ul class="part part02">
+                                            <li><a href="">방송기술</a></li>
+                                            <li><a href="">카메라</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_lst">
+                                        <span class="tit">영업&amp;마케팅</span>
+                                        <ul class="part part02">
+                                            <li><a href="">광고영업/기획</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="item03">
+                    <input type="radio" name="ro" class="radio" id="tb03">
+                    <label for="tb03" class="r_tb">CJ인 인터뷰</label>
+                    <div class="tab_con03 tab_con">
+                        <table class="tb01 clrfx">
+                            <thead>
+                                <tr>
+                                    <th class="cel1">동영상</th>
+                                    <th class="cel2">제목</th>
+                                    <th class="cel3">날짜</th>
+                                    <th class="cel4">비고</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="tr1">
+                                    <td class="cel1">
+                                       <img src="./sub/sub07_job/images/img_11.jpg" alt="하빈님 편">
+                                    </td>
+                                    <td class="cel2">CJ ENM 오쇼핑부문 직무 브이로그! IT개발자 김하빈님 편</td>
+                                    <td class="cel3">2020.05.25</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr2">
+                                    <td class="cel1">
+                                       <img src="./sub/sub07_job/images/img_10.jpg" alt="다원님 편">
+                                    </td>
+                                    <td class="cel2">CJ ENM 오쇼핑부문 직무 브이로그! 영상아트 영상콘텐츠디자인 함다원님 편</td>
+                                    <td class="cel3">2020.05.25</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr3">
+                                    <td class="cel1">
+                                      <img src="./sub/sub07_job/images/img_09.jpg" alt="정다운님 편">
+                                    </td>
+                                    <td class="cel2">CJ ENM 오쇼핑부문 직무 브이로그! 영상아트 조명 담당 정다운님 편</td>
+                                    <td class="cel3">2020.05.25</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr4">
+                                    <td class="cel1">
+                                       <img src="./sub/sub07_job/images/img_08.jpg" alt="여가희님 편">
+                                    </td>
+                                    <td class="cel2">CJ오쇼핑 Live PD 여가희님</td>
+                                    <td class="cel3">2015.09.08</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr5">
+                                    <td class="cel1">
+                                       <img src="./sub/sub07_job/images/img_07.jpg" alt="프레시웨이 MD 직무영상소개">
+                                    </td>
+                                    <td class="cel2">[JOB TV] CJ프레시웨이 MD 직무소개영상</td>
+                                    <td class="cel3">2019.09.20</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr6">
+                                    <td class="cel1">
+                                        <img src="./sub/sub07_job/images/img_06.jpg" alt="프레시웨이 마케팅 직무영상소개">
+                                    </td>
+                                    <td class="cel2">[JOB TV] CJ프레시웨이 마케팅 직무소개영상</td>
+                                    <td class="cel3">2019.09.20</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr7">
+                                    <td class="cel1">
+                                      <img src="./sub/sub07_job/images/img_03.jpg" alt="제일제당 바이오 기술마케팅">
+                                    </td>
+                                    <td class="cel2">[JOB TV] CJ제일제당 BIO 기술마케팅 (Animal Nutrition) 직무소개영상</td>
+                                    <td class="cel3">2019.03.09</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                                <tr class="tr8">
+                                    <td class="cel1">
+                                       <img src="./sub/sub07_job/images/img_12.jpg" alt="오쇼핑 MD직무소개영상">
+                                    </td>
+                                    <td class="cel2">[JOB TV] CJ ENM 오쇼핑부문 MD 직무소개영상</td>
+                                    <td class="cel3">2018.10.02</td>
+                                    <td class="cel4"><a href="">보러가기</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                <li class="item04">
+                    <input type="radio" name="ro" class="radio" id="tb04">
+                    <label for="tb04" class="r_tb">마이페이지</label>
+                    <div class="tab_con04 tab_con clrfx">
+                        <form action="" class="form03">
+                            <h2 class="log">로그인</h2>
+                            <ul class="fr_lst01">
+                                <li>
+                                    <label for="" class="id">아이디</label>
+                                    <input type="text" id="log_id" class="log_id01" placeholder="아이디를 입력하세요. " autofocus required>
+                                    <p class="com">* 5~12자의 영문 소문자,숫자만 사용</p>
+                                </li>
+                                <li>
+                                    <label for="" class="id">비밀번호</label>
+                                    <input type="password" id="log_pw" class="log_pw01" placeholder="비밀번호를 입력하세요." required>
+                                    <p class="com">* 5~12자의 영문 소문자,숫자만 사용</p>
+                                </li>
+                            </ul>
+                            <input type="submit" value="로그인" id="log_in" class="in_btn">
+                            <ul class="find">
+                                <li class="left"><a href="">아이디 찾기</a></li>
+                                <li class="left"><a href="">비밀번호 찾기</a></li>
+                                <li class="right"><a href="">회원가입</a></li>
+                            </ul>
+                            <ul class="des">
+                                <li class="com">아이디가 없으신분은<span class="bl">회원가입</span>후 이용하실 수 있습니다.</li>
+                                <li class="com">비밀번호를 <span class="bl">24시간 동안 5회 이상 입력 오류 시</span>계정이 자동으로 잠기며, 계정이 잠기거나
+                                    비밀번호를 분실 하셨을 경우 <span class="bl">아이디 찾기</span>또는<span class="bl">비밀번호 찾기</span>를 클릭하셔서 재발급 절차를 받으실 수 있습니다.</li>
+                            </ul>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <footer class="ft clrfx">
+            <div class="sel_box clrfx">
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck1" class="ck">
+                    <li class="lst1 food">
+                        <label for="ck1" class="tit">식품&amp;식품서비스</label>
+                        <ul class="sub">
+                            <li class="item1 jd">
+                                <a href="">CJ제일제당</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ푸드빌</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ프레시웨어</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck2" class="ck">
+                    <li class="lst1 life">
+                        <label for="ck2" class="tit">생명공학</label>
+                        <ul class="sub">
+                            <li class="item1 bio">
+                                <a href="">BIO사업부문</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ FEED&amp;Care </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck3" class="ck">
+                    <li class="lst1 traffic">
+                        <label for="ck3" class="tit">물류&amp;신유통</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ올리브영</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ올리브네트웍스</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJENM 커머스</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck4" class="ck">
+                    <li class="lst1 enter">
+                        <label for="ck4" class="tit">엔터테인먼트&amp;미디어</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ ENM</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ CGV</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJ파워캐스트</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="fnb_box clrfx">
+                <div class="fnb_wrap clrfx">
+                    <ul class="ft_nav ft_nav01 clrfx">
+                        <li><a href="sub01.html">#LIVE NEW CJ</a></li>
+                        <li><a href="sub02.html">CJ Media</a></li>
+                        <li><a href="sub04.html">CJ Brand</a></li>
+                        <li><a href="sub05.html">CSV</a></li>
+                        <li><a href="sub06.html">CJ소개</a></li>
+                        <li><a href="sub07.html">인재채용</a></li>
+                    </ul>
+                    <ul class="ft_nav ft_nav02 clrfx">
+                        <li><a href="sub10.html">개인정보처리방침</a></li>
+                        <li><a href="sub11.html">이용약관</a></li>
+                        <li><a href="sub12.html">뉴스레터</a></li>
+                        <li><a href="sub13.html">공지사항</a></li>
+                        <li><a href="sub14.html">온라인제보</a></li>
+                        <li><a href="sub15.html">고객센터</a></li>
+                    </ul>
+                    <p class="copy">서울특별시 중구 소월로 2길 12, CJ THE CENTER | 대표이사:손경식,김홍기<br>사업자등록번호 : 104-81-26714<br>ⓒ씨제이㈜.All Rights REseved.</p>
+                    <img src="./main/logo/ft_wa_mark_big.png" alt="와인증마크1" class="wa">
+                </div>
+            </div>
+        </footer>
+        <a href="" class="top">
+            <img src="./main/icon/img_scroll_arrow.png" alt="위로화살표">
+            <span class="txt">top</span>
+        </a>
+    </div>
+</body>
+
+</html>

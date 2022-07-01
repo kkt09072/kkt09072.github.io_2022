@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+.con { width: 1440px; min-height: 1800px; clear:both; margin: 0 auto; margin-top: 130px; padding-top: 20px; }
+ul.tab{  width: 100%; height:100% ;padding-top: 100px; position:relative; }/*높이 잡아주기*/
+ul.tab li { width: 25%; float:left; text-align: center;  }
+ul.tab li label  {  text-align: center; font-size: 25px ; cursor: pointer; font-weight: 600;  border-top: 1px solid transparent; padding: 20px 0}
+ul.tab li:hover label.r_tb { border-top: 3px solid rgb(239,21,30); }
+.tab_con { width: 100%; min-height: 1000px; position:relative; clear:both; display: none; }
+#tb01:checked ~ .tab_con01  { display: block; }
+#tb02:checked ~ .tab_con02  { display: block; }
+#tb03:checked ~ .tab_con03{ display: block; }
+#tb04:checked ~ .tab_con04{ display: block; }
+.con .radio { display: none; }
+
+
+.tab_con { position:absolute ; left:30px; top: 150px; width: 100%; height:100%; }
+
+
+
+/*table*/
+.con .tab_con01 .tb { display: table; width: 90%; height: 100%; margin: 30px 5%; border-collapse: collapse;   border-top: 2px solid #000 ; z-index: 50;}
+.con .tab_con01 .tb tr { display: table-row; border-bottom: 1px solid #ddd;}
+.con .tab_con01 .tb th,.con .tab_con .tb td { display:  table-cell; }
+.con .tab_con01 th { font-size: 22px;line-height: 3.0 }
+.con .tab_con01 td {font-size: 20px; line-height: 2.0; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center; }
+
+.con .tab_con01 td.cel1 {text-align: left;}
+.con .tab_con01 td.cel1 .tit { display: block; font-weight: 600; }
+.con .tab_con01 td.cel1 .com { display: block; height:50px; }
+.con .tab_con01 td.cel2,.con .tab_con td.cel3,.con .tab_con td.cel4 { text-align: center;}
+.con .tab_con01 td.cel4 a { display: block; width: 60%; height:40px; background-color: #000; margin: 0 auto; color: #fff; border-radius: 3px; }
+.con .tab_con01 td.cel4 a:hover { background-color: rgb(239,21,30);  } 
+.con .tab_con01 th.cel1, .con .tab_con td.cel1 { width: 50%; }
+.con .tab_con01 th.cel2, .con .tab_con td.cel2 { width: 10%; }
+.con .tab_con01 th.cel3, .con .tab_con td.cel3 { width: 20%; }
+.con .tab_con01 th.cel4, .con .tab_con td.cel4 { width: 20%; }
+
+
+/*직무정보부분*/
+
+
+.con .tab_con02 .ri { display: none;}
+#rid1:checked ~ .sub01 {display: block;}
+#rid2:checked ~ .sub02 {display: block;}
+#rid3:checked ~ .sub03 {display: block;}
+
+.con .tab_con02 .sl_wrap { width: 90%; height: 100%; margin: 30px auto; border-top: 2px solid #000 ; z-index: 50; position:relative; clear:both; overflow: hidden; }
+
+.con .tab_con02 .sl_wrap label { display: block; width: 100%; text-align: center; font-size: 20px; height:60px; line-height: 60px; padding: 20px 160px; }
+.con .tab_con02 .sl_wrap label:hover { color:rgb(239,21,30); }
+.con .tab_con02 .sub { display: none; position:absolute;  left: 0; top: 100px;  }
+
+.con .tab_con02 a { color:#000;}
+
+/*제일제당*/
+.con .tab_con02 .sub01 .sub_lst { width: 1300px; height:150px; text-align: left; clear:both;  border-bottom:1px solid  #ddd; } 
+.con .tab_con02 .sub01 .sub_lst:first-child { border-top: 1px solid #000; }
+.con .tab_con02 .sub01 .sub_lst .tit { display: block; width: 20%; line-height:120px; font-size: 25px;float: left; line-height: 120px; text-align: center; padding-top: 10px}
+.con .tab_con02 .sub01 .sub_lst .part { width: 80%; height:120px; margin-left:300px ; padding-top: 15px }
+.con .tab_con02 .sub01 .sub01 .sub_lst .part li { width: 33.333333%; line-height: 60px; line-height: 60px;   }
+.con .tab_con02 .sub01 .sub_lst .part li a  { float: left; display: block; line-height: 60px; height:60px;}
+.con .tab_con02 .sub01 .sub_lst .part02 li a { float: left; display: block; line-height:120px; height:120px; }
+
+.con .tab_con02 .sub02 .sub_lst:first-child { border-top: 1px solid #000; }
+.con .tab_con02 .sub02 .sub_lst { width: 1300px; height:150px; text-align: left; clear:both; ; border-bottom:1px solid  #ddd; } 
+.con .tab_con02 .sub02 .sub_lst .tit { display: block; width: 20%; line-height:120px; font-size: 25px;float: left; line-height: 120px; text-align: center; padding-top: 10px}
+.con .tab_con02 .sub02 .sub_lst .part { width: 80%; height:120px; margin-left:300px ; padding-top: 15px }
+.con .tab_con02 .sub02 .sub01 .sub_lst .part li { width: 33.333333%; line-height: 60px; line-height: 60px;   }
+.con .tab_con02 .sub02 .sub_lst .part li a  { float: left; display: block; line-height: 60px; height:60px;}
+.con .tab_con02 .sub02 .sub_lst .part02 li a { float: left; display: block; line-height:120px; height:120px; }
+
+
+.con .tab_con02 .sub03 .sub_lst:first-child { border-top: 1px solid #000; }
+.con .tab_con02 .sub03 .sub_lst { width: 1300px; height:150px; text-align: left; clear:both; ; border-bottom:1px solid  #ddd; } 
+.con .tab_con02 .sub03 .sub_lst .tit { display: block; width: 20%; line-height:120px; font-size: 25px;float: left; line-height: 120px; text-align: center; padding-top: 10px}
+.con .tab_con02 .sub03 .sub_lst .part { width: 80%; height:120px; margin-left:300px ; padding-top: 15px }
+.con .tab_con02 .sub03 .sub01 .sub_lst .part li { width: 33.333333%; line-height: 60px; line-height: 60px;   }
+.con .tab_con02 .sub03 .sub_lst .part li a  { float: left; display: block; line-height: 60px; height:60px;}
+.con .tab_con02 .sub03 .sub_lst .part02 li a { float: left; display: block; line-height:120px; height:120px; }
+
+/*item03 cj인 인터뷰*/
+
+.con .tab_con03 .tb01 { display: table; width: 90%; height: 100%; margin: 30px 5%; border-collapse: collapse;   border-top: 2px solid #000 ; z-index: 50;}
+.con .tab_con03 .tb01 tr { display: table-row; border-bottom: 1px solid #ddd; background-position: center center; background-size: cover; }
+
+.con .tab_con03 .tb01 th,.con .tab_con03 .tb01 td { display:  table-cell; }
+.con .tab_con03 th { font-size: 22px;line-height: 3.0 }
+.con .tab_con03 td {font-size: 20px; line-height: 2.0; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center; }
+
+.con .tab_con03 td.cel1 {text-align: left;}
+.con .tab_con03 td.cel1 img { display: block; height: 170px; width: 280px; margin: 5px 0; outline: 0; }
+.con .tab_con03 td.cel2,.con .tab_con03 td.cel3,.con .tab_con03 td.cel4 { text-align: center;}
+.con .tab_con03 td.cel4 a { display: block; width: 60%; height:40px; background-color: #000; margin: 0 auto; color: #fff; border-radius: 3px; }
+.con .tab_con03 td.cel4 a:hover { background-color: rgb(239,21,30);  } 
+.con .tab_con03 th.cel1, .con .tab_con03 td.cel1 { width:20%; }
+.con .tab_con03 th.cel2, .con .tab_con03 td.cel2 { width: 35%; padding-left: 30px; text-align: left; }
+.con .tab_con03 th.cel3, .con .tab_con03 td.cel3 { width: 15%; }
+.con .tab_con03 th.cel4, .con .tab_con03 td.cel4 { width: 30%; }
+
+/*마이페이지부분*/
+.con .tab_con04 { width: 1440px; }
+.con .tab_con04 .form03 { width:40%; height: 500px; margin: 0 auto; border:1px solid #ddd; margin-top: 60px;  padding: 40px 0; }
+.con .tab_con04 .form03 .fr_lst01 { width: 100%; height: 40%; }
+.con .tab_con04 .form03 .fr_lst01 li { width: 100%; margin-left:10px ; }
+.con .tab_con04 .form03 label { display: block; float:left; width: 30%; height: 10px; line-height: 10px; font-size: 20px ; margin-left: -10px;}
+.con .tab_con04 .form03  input { display: block;  margin: 0 auto; border:1px solid #aaa; width: 60%; padding: 10px ; box-sizing: border-box; font-size: 18px;}
+
+.con .tab_con04 .form03 .log_id01, .con .tab_con04 .form03 .log_pw01 {  height: 50px; float: left; }
+.con .tab_con04 .form03 p.com { clear:both; margin-left: 40px;line-height: 2.5; color:#aaa; font-size: 15px; }
+.con .tab_con04 .form03 h2.log { text-align: center; padding-bottom: 40px }
+.con .tab_con04 .form03 .in_btn { display: block;  width:470px; line-height: 30px; margin-left:50px; clear:both; background-color: rgba( 0,0,0,0.9); color:#fff;  font-weight: 600 }
+.con .tab_con04 .form03 .find { width:100%; line-height: 4.0; margin: 0 auto; }
+.con .tab_con04 .form03 .find li { text-align: center; }
+.con .tab_con04 .form03 .find li.left { float:left;  margin-left:40px ; }
+.con .tab_con04 .form03 .find li.right { float: right; }
+.con .tab_con04 .form03 .find li a { color:#000; }
+.con .tab_con04 .form03 .des { clear:both; }
+.con .tab_con04 .form03 .des li.com  { width: 458px; clear:both; text-align: left ; line-height: 2.0; margin-left: 40px; padding-left: 30px; font-size: 13px; color:#aaa; }
+.con .tab_con04 .form03 .des li.com .bl{color:#000; font-weight: 700; }
+

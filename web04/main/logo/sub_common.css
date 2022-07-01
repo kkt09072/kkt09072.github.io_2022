@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+.wrap { width: 100vw; }
+
+
+/*header*/
+
+.hd { width: 100vw;  height: 130px; border-bottom: 1px solid #eeeeee; position: relative;  position: fixed; left: 0; top: 0; z-index: 95; transition:0.6s; background-color: rgba(255,255,255,0,5);}
+header:hover .m_lst ul.sub { display: block; height: 430px; visibility:visible; opacity: 1; }
+.logo_top { display: block; background-image: url("../main/logo/cj_logo_b.png"); width: 160px; height: 90px; background-position: center center; background-repeat: no-repeat; text-indent: -9999px; float: left; margin-left: 100px; padding-top: 40px; }
+/*gnb*/
+.gnb { width: 100%; height: 130px; background-color:rgba(255,255,255,0.8) ; transition:0.5s; }
+.gnb:hover { height: 560px;  }
+.gnb_wrap { width: 1200px; height:130px;  margin: 0 auto; position:relative; padding-top: 20px; }
+
+.gnb_wrap .g_ul { width:1100px; height: 0px; margin: 0 auto; margin-left: -15px; transition:0.6s; height:130px;  }
+
+.gnb_wrap .m_lst  { float: left; width: 145px; height: 60px; margin-top:40px; margin-left: 5px; }
+.gnb_wrap .m_lst:hover a.m_a { color:#006ecd; }
+.gnb_wrap .m_lst a { display: block; float: left; width: 150px; font-size: 20px; color: #000; text-align: center; font-weight: 700; }
+
+.m_lst ul.sub { position: absolute; top: 130px;  transition :0.5s; height: 0px;    visibility: hidden; opacity: 0;}
+.m_lst .sub:after { content:""; display:block; clear: both; }
+.m_lst .sub li { width: 150px; height: 50px; }
+.m_lst .sub li:first-child { padding-top: 30px;}
+.gnb_wrap .sub li a:hover  { color:#006ecd; text-decoration: underline; font-weight: 600;}
+.m_lst .sub li a { display: block; width: 143px; height: 50px;  font-size: 18px; color: black; text-align: center; font-weight: 500;}
+
+
+/*ft*/
+
+.ft { clear:both; width: 100vw; }
+.ft .sel_box { width: 100%; height: 60px; }
+.ft .sel { width: 25%; height: 60px; float:left;}
+.ft .sel .lst1 { width:100%; height: 60px; float: left; margin: 0 auto; position: relative; background-color: rgba(0,0,0,0.7);}
+
+.ft .sel .lst1 .tit { display: block; width: 100%; height: 60px; border: 1px solid #dddddd; text-align: center;line-height: 60px; font-size: 20px; margin: 0 auto; box-sizing: border-box; border-right: 0; color:#fff;}
+.ft .sel .food .tit { border-left: 0;}
+
+.ft .sel .lst1 .tit:after { content:"▲"; display: block; font-size: 25px; position: absolute; top:0px; color:#fff;}
+.ft .sel .food .tit:after { right:110px;}
+.ft .sel .life .tit:after { right:160px;}
+.ft .sel .traffic .tit:after { right:130px;}
+.ft .sel .enter .tit:after { right:90px;}
+
+.ft .sel .lst1.on .tit:after{ content:"▼"; }
+
+.ft .sel .lst1 .sub { width: 100%; height: 0px; border: 1px solid #dddddd; position:absolute; bottom: 60px; left: 0; background-color:rgba(255,255,255,0.7); border-bottom: 0; box-sizing: border-box; transition:0.6; display: none; }
+
+.ft .sel .lst1 .sub li a { display:block; width: 100%; text-align: center;line-height: 50px; font-size: 18px; color:#000; font-weight: 600; }
+.ft .sel .lst1 .sub li a:hover { color:#006ecd; }
+.ft .sel .lst1 .sub li:first-child a { margin-top: 20px;}
+.ft .sel .lst1 .sub li.jd a { margin-top: 65px;}
+.ft .sel .lst1 .sub li.bio a { margin-top: 115px;}
+
+#ck1:checked ~ .food .sub { display: block; height:250px; }
+#ck2:checked ~ .life .sub { display: block; height:250px; }
+#ck3:checked ~ .traffic .sub { display: block; height:250px; }
+#ck4:checked ~ .enter .sub { display: block; height:250px; }
+.ck { display: none;}
+
+/*footer 하단 메뉴*/
+.fnb_box{  width: 100vw; clear:both; background-color: rgba(0,0,0,0.7); height:300px;  }
+.fnb_wrap { width: 1440px; margin: 0 auto;  height:300px; clear:both; position:relative; }
+.ft_nav { width: 100%; clear:both; box-sizing: border-box; }
+.ft_nav01 { padding-top: 50px ; }
+.ft_nav li { float: left; width: 150px; height: 50px; line-height:50px; }
+.ft_nav li  a { display: block; width: 100%; height: 50px; line-height:50px; color:#dddddd; text-align: center; }
+.ft_nav01 li a { font-size: 20px; font-weight: 600; color: #fff; }
+.ft_nav02 { clear:both; }
+.copy { clear:both ; padding-left: 10px; line-height: 30px;  color:#dddddd; }
+.ft_nav02 li a:after { content: "|"; display: block; float:right;}
+.ft_nav li a:hover { color: #006ecd; }
+
+/*wa마크*/
+.fnb_wrap .wa{ display: block;  width: 123px; height: 75px; position:absolute; right:0; bottom: 50px;}
+
+/*상단으로 버튼*/
+.top { display:block;  position: fixed; z-index: 99; width: 90px; height:95px; right: 0; bottom: 0; background-color: #434646; }
+
+.top img {display: block; width: 90px; height:60px; }
+.top .txt { display: block; color:#fff; font-size: 20px; text-align: center; width: 90px; height: 32px; line-height: 27px; background-color: transparent;}
+
+.mt_bar { position:fixed; top: 50%; right:0; width:100px; height:250px; margin-top: -100px; z-index: 999;}
+
+.mt_bar .bar_fr { clear:both; }
+.mt_bar .bar_fr:before { content:""; display: block; height: 50px; width:80px; border:1px solid #ddd; box-sizing: border-box;}
+.mt_bar .bar_fr:after { content:""; display: block; height: 50px; width: 80px; border:1px solid #ddd; box-sizing: border-box; }
+.mt_bar .bar_fr li{ width: 100px; height:50px;  }
+.mt_bar .bar_fr button { display: block; width: 80px; height:50px; border:1px solid #ddd; outline: 0;color:#fff; size:18px;}
+.mt_bar .bar_fr  { }
+
+
+
+
+
