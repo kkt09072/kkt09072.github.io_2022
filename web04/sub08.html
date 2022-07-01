@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=0,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--상위 한줄 익스플로러 10이하버전 셋-->
+    <title>CJ그룹리뉴얼포트폴리오</title>
+    <meta name="title" content="CJ그룹 홈페이지">
+    <meta name="keywords" content="cj그룹, 비비고,씨제이원,씨지브이,제일제당">
+    <meta name="description" content="CJ그룹 홈페이지입니다.">
+    <meta http-equiv="refresh" content="180">
+    <link rel="shortcut icon" href="favicon(20x20).ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon(20x20).ico" type="image/x-icon">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/prefixfree.js"></script>
+    <script src="./js/device.js"></script>
+    <!--fontset 설정하기-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYHW3BJNLM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JYHW3BJNLM');
+    </script>
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]
+    <script src="js/respond.js"></script>
+    <![endif]-->
+    <style>
+    </style>
+    <script>
+        $(document).ready(function() {
+            $(".r_box .op_btn ").click(function() {
+                $("header").toggleClass("active");
+            });
+            $(window).scroll(function() {
+                var scTop = parseInt($(window).scrollTop());
+                if (scTop >= 200) {
+                    $("header").addClass("on");
+                } else {
+                    $("header").removeClass("on");
+                }
+            });
+
+            $(window).scroll(function() {
+                var home = 0;
+                var pg1 = $("#pg01").offset().top;
+                var pg2 = $("#pg02").offset().top;
+                var pt3 = $("#pg03").offset().top;
+                var pg4 = $("#pg04").offset().top;
+
+                var scTop = parseInt($(window).scrollTop());
+                var ht = $(window).height();
+                if (scTop >= ht) {
+                    $("body .top").fadeIn();
+                } else {
+                    $("body .top").fadeOut();
+                }
+            });
+
+
+        });
+    </script>
+    <link rel="stylesheet" href="formCommon.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="hd clrfx">
+            <a href="index.html" class="logo_top">cj.logo(흰색)</a>
+            <nav class="gnb clrfx">
+                <div class="gnb_wrap clrfx">
+                    <ul class="g_ul">
+                        <li class="m_lst">
+                            <a href="sub01.html" class="m_a">#LIVE NEW CJ</a>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub02.html" class="m_a">CJ Media</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub02.html#pg1">뉴스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg2">포커스</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg3">사회공헌활동</a></li>
+                                <li class="s_lst"><a href="sub02.html#pg4">피플</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub04.html" class="m_a">CJ Brand</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub04.html#pg1">Best Brand</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg2">건강</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg3">즐거움</a></li>
+                                <li class="s_lst"><a href="sub04.html#pg4">편리</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst m_lst03">
+                            <a href="sub05.html" class="m_a">CSV</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub05.html#pg1">CJ CSV</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg2">CJ 나눔재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg3">CJ 문화재단</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg4">글로벌 사회공헌</a></li>
+                                <li class="s_lst"><a href="sub05.html#pg5">임직원 봉사</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="m_lst">
+                            <a href="sub06.html" class="m_a">CJ소개</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub06.html#pg1">회사소개</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg2">연혁</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg3">계열사</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg4">글로벌CJ</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg5">스포츠</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg6">윤리경영</a></li>
+                                <li class="s_lst"><a href="sub06.html#pg7">투자정보</a></li>
+                            </ul>
+                        </li>
+                        <li class="m_lst">
+                            <a href="sub07.html" class="m_a">인재채용</a>
+                            <ul class="sub">
+                                <li class="s_lst"><a href="sub07.html#pg1">채용공고</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg2">직무정보</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg3">CJ 인터뷰</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg4">지원자 도우미</a></li>
+                                <li class="s_lst"><a href="sub07.html#pg5">My Page</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="r_box clrfx">
+                    <ul class="r_lst clrfx">
+                        <li>
+                            <a href="index.html" class="ko active ">KOR</a>
+                            <a href="#" class="en">ENG</a>
+                        </li>
+                        <li>
+                            <a href="sub08.html" class="sin">고객센터</a>
+                            <a href="sub09.html" class="sin">회원가입</a>
+                            <a href="sub10.html" class="sin">문의</a>
+                        </li>
+                        <li class="op_btn">
+                            <button class="lst">
+                                <i class="i1">1</i>
+                                <i class="i2">2</i>
+                                <i class="i3">3</i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </header>
+
+        <mian class="con clrfx" id="content">
+            <figure class="sub_visual">
+                <img src="bg_sub_top1.jpg" alt="서브페이지 비주얼">
+            </figure>
+            <div id="pg" class="pg1 clrfx">
+                <section class="page">
+                    <h2 class="page_tit"><span>글 쓰기</span></h2>
+                    <form action="/myapp/board/insert.do" method="post">
+                        <div class="table_form_wrap">
+                            <table class="table_form">
+                                <tbody>
+                                    <tr>
+                                        <th><label for="title">제목</label></th>
+                                        <td><input type="text" name="title" id="title" size="100" class="single100" placeholder="글제목 입력" required="" spellcheck="false" data-ms-editor="true"></td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="content">내용</label></th>
+                                        <td><textarea name="content" id="content" cols="100" rows="8" class="multi100" placeholder="글 내용 입력" required="" spellcheck="false" data-ms-editor="true"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="nickname">작성자</label></th>
+                                        <td><input type="text" name="nickname" id="nickname" size="40" class="single40" value="admin" readonly=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <input type="submit" class="btn btn-writer" value="글 등록">
+                                            <input type="reset" class="btn btn-primary" value="취소">
+                                        </td>
+                                    </tr>	
+                                </tbody>
+                            </table>
+                        </div>
+                        </form>
+                </section>
+            </div>
+        </mian>
+        <footer class="ft clrfx">
+            <div class="sel_box clrfx">
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck1" class="ck">
+                    <li class="lst1 food">
+                        <label for="ck1" class="tit">식품&amp;식품서비스</label>
+                        <ul class="sub">
+                            <li class="item1 jd">
+                                <a href="">CJ제일제당</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ푸드빌</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ프레시웨어</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck2" class="ck">
+                    <li class="lst1 life">
+                        <label for="ck2" class="tit">생명공학</label>
+                        <ul class="sub">
+                            <li class="item1 bio">
+                                <a href="">BIO사업부문</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ FEED&amp;Care </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck3" class="ck">
+                    <li class="lst1 traffic">
+                        <label for="ck3" class="tit">물류&amp;신유통</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ올리브영</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ올리브네트웍스</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJENM 커머스</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sel">
+                    <input type="checkbox" name="ck" id="ck4" class="ck">
+                    <li class="lst1 enter">
+                        <label for="ck4" class="tit">엔터테인먼트&amp;미디어</label>
+                        <ul class="sub">
+                            <li class="item1">
+                                <a href="">CJ대한통운</a>
+                            </li>
+                            <li class="item2">
+                                <a href="">CJ ENM</a>
+                            </li>
+                            <li class="item3">
+                                <a href="">CJ CGV</a>
+                            </li>
+                            <li class="item4">
+                                <a href="">CJ파워캐스트</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <script>
+                </script>
+            </div>
+            <div class="fnb_box clrfx">
+                <div class="fnb_wrap clrfx">
+                    <ul class="ft_nav ft_nav01 clrfx">
+                        <li><a href="sub01.html">#LIVE NEW CJ</a></li>
+                        <li><a href="sub02.html">CJ Media</a></li>
+                        <li><a href="sub04.html">CJ Brand</a></li>
+                        <li><a href="sub05.html">CSV</a></li>
+                        <li><a href="sub06.html">CJ소개</a></li>
+                        <li><a href="sub07.html">인재채용</a></li>
+                    </ul>
+                    <ul class="ft_nav ft_nav02 clrfx">
+                        <li><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">뉴스레터</a></li>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">온라인제보</a></li>
+                        <li><a href="sub08.html">고객센터</a></li>
+                    </ul>
+                    <p class="copy">서울특별시 중구 소월로 2길 12, CJ THE CENTER | 대표이사:손경식,김홍기<br>사업자등록번호 : 104-81-26714<br>ⓒ씨제이㈜.All Rights REseved.</p>
+                    <img src="./main/logo/ft_wa_mark_big.png" alt="와인증마크1" class="wa">
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="top">
+            <img src="./main/icon/img_scroll_arrow.png" alt="위로화살표">
+            <span class="txt">top</span>
+        </a>
+        <script>
+        $(document).ready(function(){
+           $(".top").click(function(){
+              $("body,html").not(":animated").animate({"scrollTop":"0px"},500); 
+           });
+        });
+        </script>
+        <!--ul 앞: top  뒤: end -->
+        <!-- <div class="mt_bar">
+            <ul class="bar_fr">
+                <li><button data_target="header" class="btn">top</button></li>
+                <li><button data_target="pg1">1</button></li>
+                <li><button data_target="pg2">2</button></li>
+                <li><button data_target="pg3">3</button></li>
+                <li><button data_target="pg4">4</button></li>
+                <li><button data_target="footer">end</button></li>
+            </ul>
+            <div class="cur_page">현재위치표시</div>
+        </div> -->
+
+    </div>
+
+</body>
+
+</html>
